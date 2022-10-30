@@ -1,0 +1,47 @@
+html, body {
+    margin: 0px;
+    color: white;
+    background-image: url("../cartas/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 25px;
+}
+
+#divBotones {
+    position: absolute;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.btn {
+    box-shadow: 1px 2px 7px #000000;
+    text-shadow: 2px 1px 3px #000;
+    margin: 5px;
+}
+
+h1 {
+    text-shadow: 2px 2px #000000;
+}
+
+#divPlayers {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.carta {
+    position: relative;
+    width: 150px;
+    left: 40px;
+    margin-left: -75px;
+}
+
+#computadora-cartas, #jugador-cartas {
+    height: 240px;
+}
